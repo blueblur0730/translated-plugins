@@ -1,0 +1,153 @@
+"Phrases"
+{
+// The following uses bracket style color tags (see colors.inc)
+	"PanelHide"
+	{
+		"en"		"[{olive}Readyup{default}] Panel is now {red}off{default}"
+	}
+	
+	"PanelShow"
+	{
+		"en"		"[{olive}Readyup{default}] Panel is now {blue}on{default}"
+	}
+	
+	"ForceStartAdmin"
+	{
+		"#format"	"{1:N}"
+		"en"		"[{green}!{default}] {blue}Game {default}start is {green}forced {default}by {blue}Admin {default}({olive}{1}{default})"
+	}
+	
+	"VoteInProgress"
+	{
+		"en"		"[{olive}Readyup{default}] There's {olive}a vote {green}in progress{default}."
+	}
+	
+	"VoteDelay"
+	{
+		"#format"	"{1:d}"
+		"en"		"[{olive}Readyup{default}] Wait for another {blue}{1}s {default}to call a vote."
+	}
+	
+	"Player marked unready"
+	{
+		"#format"	"{1:N}"
+		"en"		"{default}[{green}!{default}] {green}Countdown Cancelled! {default}({teamcolor}{1} {green}marked unready{default})"
+	}
+	
+	"Player switched team"
+	{
+		"#format"	"{1:N}"
+		"en"		"{default}[{green}!{default}] {green}Countdown Cancelled! {default}({teamcolor}{1} {olive}switched team{default})"
+	}
+	
+	"Player disconnected"
+	{
+		"#format"	"{1:N}"
+		"en"		"{default}[{green}!{default}] {green}Countdown Cancelled! {default}({teamcolor}{1} {green}disconnected{default})"
+	}
+	
+	"Admin aborted"
+	{
+		"#format"	"{1:N}"
+		"en"		"{default}[{green}!{default}] {green}Force Start Aborted! {default}({olive}{1} {green}issued{default})"
+	}
+	
+	"TwoRoundRestart"
+	{
+		"en"		"{default}[{green}!{default}] Match will be live\n{default}[{green}!{default}] after 2 round restarts."
+	}
+
+// The following are not allowed to use any color tag
+	"HintReady"
+	{
+		"en"		"You are ready.\nSay !unready / Press F2 to unready."
+	}
+	
+	"HintUnready"
+	{
+		"en"		"You are not ready.\nSay !ready / Press F1 to ready up."
+	}
+	
+	"LiveCountdownBegin"
+	{
+		"en"		"Going live!\nSay !unready / Press F2 to cancel"
+	}
+	
+	"LiveCountdown"
+	{
+		"#format"	"{1:d}"
+		"en"		"Live in: {1}\nSay !unready / Press F2 to cancel"
+	}
+	
+	"LiveCountdownCancelled"
+	{
+		"en"		"Countdown Cancelled!"
+	}
+	
+	"RoundIsLive"
+	{
+		"en"		"Round is live!"
+	}	
+	
+	"InitiateAutoStart"
+	{
+		"en"		"Game will automatically start!"
+	}
+	
+	"AutoStartCountdown"
+	{
+		"#format"	"{1:d}"
+		"en"		"Game starts in: {1}"
+	}
+	
+	"AutoStartWaiting"
+	{
+		"en"		"Waiting for loading players..."
+	}
+	
+	"AutoStartNotEnoughPlayers"
+	{
+		"en"		"More players are required..."
+	}
+	
+	// The following are words from readyup panel and not allowed to use any color tag
+	"ServerSlotsConfigs"
+	{
+		"en"		"▸ Server: %s \n▸ Slots: %d/%d\n▸ Config: %s"
+	}
+
+	"Command"
+	{
+		"en"		"▸ Commands:"
+	}
+
+	"TimePassed"
+	{
+		"en"		"%s (%02d:%02d)"		//This Only change the time format by your preference
+	}
+	
+	"Survivors"
+	{
+		"en"		"->%d. Survivors%s"
+	}
+	
+	"Infected"
+	{
+		"en"		"->%d. Infected%s"
+	}
+
+	"Caster"
+	{
+		"en"		"->%d. Caster%s"
+	}
+
+	"Spectator"
+	{
+		"en"		"->%d. Spectator%s"
+	}
+
+	"ManySpec"
+	{
+		"en"		"**Many** (%d)"
+	}
+}

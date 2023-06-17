@@ -1,0 +1,20 @@
+"Phrases"
+{
+	"Tag"
+	{
+		"en"		"[{olive}Teamflip{default}]"
+		"chi"		"[{olive}Teamflip{default}]"
+	}
+
+	"SurvivorTeam"
+	{
+		"en"		"{lightgreen}%s{default} flipped a team and is on the {lightgreen}Survivor {default}team!"
+		"chi"		"{lightgreen}%s{default} 随机选择了队伍, 结果是 {lightgreen}生还者 {default}队!"
+	}
+	
+	"InfectedTeam"
+	{
+		"en"		"{lightgreen}%s{default} flipped a team and is on the {lightgreen}Infected {default}team!"
+		"chi"		"{lightgreen}%s{default} 随机选择了队伍, 结果是 {lightgreen}感染者 {default}队!"
+	}
+}
