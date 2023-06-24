@@ -20,6 +20,7 @@
 #include <sdktools>
 #include <left4dhooks>
 #include <builtinvotes>
+#include <colors>
 
 #define L4D_TEAM_SPECTATE 1
 
@@ -52,9 +53,6 @@ int
 	
 bool 
 	inFirstReadyUpOfRound;
-
-char
-	ChangingScore[128] = "'%t', 'ChangingScore'";
 
 //Beginning of our plugin, verifies the game is l4d2 and sets up our convars/command
 public void OnPluginStart()
@@ -237,9 +235,11 @@ public void VoteActionHandler(Handle vote, BuiltinVoteAction action, int param1,
 //Handles a score vote's results, if a majority voted for the score change then set the scores
 public void ScoreVoteResultHandler(Handle vote, int num_votes, int num_clients, const int[][] client_info, int num_items, const int[][] item_info)
 {
+	char ChangingScore[128];
 	for (int i = 0; i < num_items; i++) {
 		if (item_info[i][BUILTINVOTEINFO_ITEM_INDEX] == BUILTINVOTES_VOTE_YES) {
 			if (item_info[i][BUILTINVOTEINFO_ITEM_VOTES] > (num_clients / 2)) {
+				Format(ChangingScore, sizeof(ChangingScore), "%t", "ChangingScore");
 				DisplayBuiltinVotePass(vote, ChangingScore);
 				SetScores(survivorScore, infectedScore, -1);
 				return;

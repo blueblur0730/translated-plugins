@@ -318,6 +318,7 @@ public void MatchVoteResultHandler(Handle vote, int num_votes, int num_clients, 
 public Action Timer_ForceMatch(Handle timer)
 {
 	char sCfg[64], sName[64];
+	GetCmdArg(1, sCfg, sizeof(sCfg));
 	if (FindConfigName(sCfg, sName, sizeof(sName))) 
 	{
 		strcopy(g_sCfg, sizeof(g_sCfg), sCfg);
