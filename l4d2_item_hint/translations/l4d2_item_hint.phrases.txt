@@ -1,0 +1,411 @@
+"Phrases"
+{
+    "FirstAid"
+    {
+        "en"        "First Aid!"
+        "chi"       "医疗包!"
+    }
+
+    "Defibrillator"
+    {
+        "en"        "Defibrillator!"
+        "chi"       "心脏除颤器!"
+    }
+
+    "PainPills"
+    {
+        "en"        "Pain pills!"
+        "chi"       "止痛药!"
+    }
+
+    "Adrenaline"
+    {
+        "en"        "Adrenaline!"
+        "chi"       "肾上腺素!"
+    }
+
+    "BileBomb"
+    {
+        "en"        "Bile Bomb!"
+        "chi"       "胆汁罐!"
+    }
+
+    "Molotov"
+    {
+        "en"        "Molotov!"
+        "chi"       "燃烧瓶!"
+    }
+
+    "PipeBomb"
+    {
+        "en"        "Pipe Bomb!"
+        "chi"       "土质炸弹!"
+    }
+
+    "LaserSight"
+    {
+        "en"        "Laser Sight!"
+        "chi"       "激光瞄准器!"
+    }
+
+    "IncendiaryPack"
+    {
+        "en"        "Incendiary UpgradePack!"
+        "chi"       "燃烧弹包!"
+    }
+
+    "ExplosivePack"
+    {
+        "en"        "Explosive UpgradePack!"
+        "chi"       "高爆弹包!"
+    }
+
+    "Ammo"
+    {
+        "en"        "Ammo!"
+        "chi"       "弹药!"
+    }
+
+    "Chainsaw"
+    {
+        "en"        "Chainsaw!"
+        "chi"       "电锯!"
+    }
+
+    "Pistol"
+    {
+        "en"        "Pistol!"
+        "chi"       "手枪!"
+    }
+
+
+    "Magnum"
+    {
+        "en"        "Magnum!"
+        "chi"       "马格南!"
+    }
+
+    "Pump"
+    {
+        "en"        "Pump Shotgun!"
+        "chi"       "木喷!"
+    }
+
+    "Chrome"
+    {
+        "en"        "Chrome Shotgun!"
+        "chi"       "铁喷!"
+    }
+
+    "Uzi"
+    {
+        "en"        "Uzi!"
+        "chi"       "Uzi!"
+    }
+
+    "Smg"
+    {
+        "en"        "Silenced Smg!"
+        "chi"       "消音冲锋枪!"
+    }
+
+    "MP5"
+    {
+        "en"        "MP5!"
+        "chi"       "MP5!"
+    }
+
+    "M16"
+    {
+        "en"        "M16 Rifle!"
+        "chi"       "M16 步枪!"
+    }
+
+    "SG552"
+    {
+        "en"        "SG552!"
+        "chi"       "SG552!"
+    }
+
+    "AK47"
+    {
+        "en"        "AK47!"
+        "chi"       "AK47!"
+    }
+
+    "DesertRifle"
+    {
+        "en"        "Desert Rifle!"
+        "chi"       "Scar三连发!"
+    }
+
+    "Spas12"
+    {
+        "en"        "Spas-12 Auto-Shotgun!"
+        "chi"       "Spas-12自动霰弹枪!"
+    }
+
+    "XM1014"
+    {
+        "en"        "XM1014 Auto-Shotgun!"
+        "chi"       "XM1014自动霰弹枪!"
+    }
+
+    "HuntingRifle"
+    {
+        "en"        "Hunting Rifle!"
+        "chi"       "猎枪!"
+    }
+
+    "MilitarySniper"
+    {
+        "en"        "Military Sniper!"
+        "chi"       "军用狙击枪!"
+    }
+
+    "Scout"
+    {
+        "en"        "Scout!"
+        "chi"       "鸟狙!"
+    }
+
+    "AWP"
+    {
+        "en"        "AWP!"
+        "chi"       "AWP!"
+    }
+
+    "GrenadeLuncher"
+    {
+        "en"        "Grenade Luncher!"
+        "chi"       "榴弹发射器!"
+    }
+
+    "M60"
+    {
+        "en"        "M60!"
+        "chi"       "M60!"
+    }
+
+    "GasCan"
+    {
+        "en"        "Gas Can!"
+        "chi"       "汽油桶!"
+    }
+
+    "FireWork"
+    {
+        "en"        "Firework!"
+        "chi"       "烟花盒!"
+    }
+
+    "PropaneTank"
+    {
+        "en"        "Propane Tank!"
+        "chi"       "丙烷罐!"
+    }
+
+    "OxygenTank"
+    {
+        "en"        "Oxygen Tank!"
+        "chi"       "氧气罐!"
+    }
+
+    "Gnome"
+    {
+        "en"        "Gnome!"
+        "chi"       "花园侏儒!"
+    }
+
+    "Cola"
+    {
+        "en"        "Cola!"
+        "chi"       "可乐!"
+    }
+
+    "MachineGun"
+    {
+        "en"        ".50 Cal Machine Gun here!"
+        "chi"       ".50 Cal 重机枪在这!"
+    }
+
+    "MiniGun"
+    {
+        "en"        "MiniGun Here!"
+        "chi"       "加特林机枪在这!"
+    }
+
+    "ExplosiveAmmo"
+    {
+        "en"        "Explosive Ammo!"
+        "chi"       "高爆弹!"
+    }
+
+    "IncendiaryAmmo"
+    {
+        "en"        "Incendiary Ammo!"
+        "chi"       "燃烧弹!"
+    }
+
+    "Knife"
+    {
+        "en"        "Knife!"
+        "chi"       "小刀!"
+    }
+
+    "BaseballBat"
+    {
+        "en"        "Baseball Bat!"
+        "chi"       "棒球棒!"
+    }
+
+    "CriketBat"
+    {
+        "en"        "Criket Bat!"
+        "chi"       "板球拍!"
+    }
+
+    "Crowbar"
+    {
+        "en"        "Crowbar!"
+        "chi"       "撬棍!"
+    }
+
+    "Guitar"
+    {
+        "en"        "Electric Guitar!"
+        "chi"       "电吉他!"
+    }
+
+    "Fireaxe"
+    {
+        "en"        "Fireaxe!"
+        "chi"       "消防斧!"
+    }
+
+    "Pan"
+    {
+        "en"        "Frying Pan!"
+        "chi"       "平底锅!"
+    }
+
+    "Katana"
+    {
+        "en"        "Katana!"
+        "chi"       "武士刀!"
+    }
+
+    "Macheta"
+    {
+        "en"        "Macheta!"
+        "chi"       "砍刀!"
+    }
+
+    "NightStick"
+    {
+        "en"        "Night Stick!"
+        "chi"       "警棍!"
+    }
+
+    "GlofClub"
+    {
+        "en"        "Glof Club!"
+        "chi"       "高尔夫球棒!"
+    }
+
+    "Pitchfork"
+    {
+        "en"        "Pitchfork!"
+        "chi"       "干草叉!"
+    }
+
+    "Shovel"
+    {
+        "en"        "Shovel!"
+        "chi"       "铁铲!"
+    }
+
+    "Boomer"
+    {
+        "en"        "Boomer!"
+        "chi"       "Boomer!"
+    }
+
+    "Tank"
+    {
+        "en"        "Tank!"
+        "chi"       "Tank!"
+    }
+
+    "Smoker"
+    {
+        "en"        "Smoker!"
+        "chi"       "Smoker!"
+    }
+
+    "Hunter"
+    {
+        "en"        "Hunter!"
+        "chi"       "Hunter!"
+    }
+
+    "Witch"
+    {
+        "en"        "Witch!"
+        "chi"       "Witch!"
+    }
+
+    "WitchBride"
+    {
+        "en"        "Witch Bride!"
+        "chi"       "新娘Witch!"
+    }
+
+    "Spitter"
+    {
+        "en"        "Spitter!"
+        "chi"       "Spitter!"
+    }
+
+    "Jockey"
+    {
+        "en"        "Jockey!"
+        "chi"       "Jockey!"
+    }
+
+    "Charger"
+    {
+        "en"        "Charger!"
+        "chi"       "Charger!"
+    }
+
+    "TagChat"
+    {
+        "en"        "[{orange}Vocalizer{default}]"
+        "chi"       "[{orange}标记系统{default}]"
+    }
+
+    "TagHint"
+    {
+        "en"        "\x01[\x04Vocalizer\x01]"
+        "chi"       "\x01[\x04标记系统\x01]"
+    }
+
+    "TagCenter"
+    {
+        "en"        "\x01[\x04Vocalizer\x01]"
+        "chi"       "\x01[\x04标记系统\x01]"
+    }
+
+    "SomethingHere"
+    {
+        "en"        "Marked something here"
+        "chi"       "在这标记了一些东西"
+    }
+
+    "SpotPosition"
+    {
+        "en"        "Spoted a position"
+        "chi"       "标记了一个位置"
+    }
+}
