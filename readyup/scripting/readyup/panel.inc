@@ -189,8 +189,10 @@ void UpdatePanel()
 		bufLen = strlen(casterBuffer);
 		if (bufLen != 0)
 		{
+			char plural[8];
 			casterBuffer[bufLen] = '\0';
-			Format(nameBuf, sizeof(nameBuf), "%t", "Caster", ++textCount, casterCount > 1 ? "s" : "");		//->%d. Caster%s
+			Format(plural, sizeof(plural), "%t", "Plural");
+			FormatEx(nameBuf, sizeof(nameBuf), "%t", "Caster", ++textCount, casterCount > 1 ? plural : "");		//->%d. Caster%s
 			menuPanel.DrawText(nameBuf);
 			ReplaceString(casterBuffer, sizeof(casterBuffer), "#", "_", true);
 			menuPanel.DrawText(casterBuffer);
@@ -200,12 +202,14 @@ void UpdatePanel()
 	bufLen = strlen(specBuffer);
 	if (bufLen != 0)
 	{
+		char plural[8];
 		specBuffer[bufLen] = '\0';
-		Format(nameBuf, sizeof(nameBuf), "%t", "Spectator", ++textCount, specCount > 1 ? "s" : "");		//->%d. Spectator%s
+		Format(plural, sizeof(plural), "%t", "Plural");
+		Format(nameBuf, sizeof(nameBuf), "%t", "Spectator", ++textCount, specCount > 1 ? plural : "");		//->%d. Spectator%s
 		menuPanel.DrawText(nameBuf);
 		ReplaceString(specBuffer, sizeof(specBuffer), "#", "_");
 		if (playerCount > l4d_ready_max_players.IntValue && specCount - casterCount > 1)
-			FormatEx(specBuffer, sizeof(specBuffer), "%t", "ManySpec", specCount - casterCount);
+			Format(specBuffer, sizeof(specBuffer), "%t", "ManySpec", specCount - casterCount);
 		menuPanel.DrawText(specBuffer);
 	}
 
