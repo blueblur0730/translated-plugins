@@ -61,6 +61,12 @@
 		"chi"		"{default}[{green}!{default}] {green}叫停强制开始！ {default}({green}由 {olive}{1} {green}发起{default})"
 	}
 
+	"TwoRoundRestart"
+	{
+		"en"		"{default}[{green}!{default}] Match will be live\n{default}[{green}!{default}] after 2 round restarts."
+		"chi"		"{default}[{green}!{default}] 比赛将会\n{default}[{green}!{default}] 在2轮重启后可用."
+	}
+
 // The following are not allowed to use any color tag
 	"HintReady"
 	{
@@ -123,59 +129,10 @@
 		"en"		"More players are required..."
 		"chi"		"玩家数量不足..."
 	}
-	
-	// The following are words from readyup panel and not allowed to use any color tag
-	"ServerSlotsConfigs"
-	{
-		"en"		"▸ Server: %s \n▸ Slots: %d/%d\n▸ Config: %s"
-		"chi"		"▸ 服务器: %s \n▸ 位数: %d/%d\n▸ 配置: %s"
-	}
-
-	"Command"
-	{
-		"en"		"▸ Commands:"
-		"chi"		"▸ 指令:"
-	}
-
-	"TimePassed"
-	{
-		"en"		"%s (%02d:%02d)"		//This Only change the time format by your preference
-		"chi"		"%s (%02d:%02d)"		//这只依据你的喜好改变时间格式
-	}
-	
-	"Survivors"
-	{
-		"en"		"->%d. Survivors%s"
-		"chi"		"->%d. 生还者%s"
-	}
-	
-	"Infected"
-	{
-		"en"		"->%d. Infected%s"
-		"chi"		"->%d. 感染者%s"
-	}
-
-	"Caster"
-	{
-		"en"		"->%d. Caster%s"
-		"chi"		"->%d. 解说%s"
-	}
 
 	"Plural"
 	{
 		"en"		"s"
 		"chi"		""		//中文没有复数
-	}
-
-	"Spectator"
-	{
-		"en"		"->%d. Spectator%s"
-		"chi"		"->%d. 旁观者%s"
-	}
-
-	"ManySpec"
-	{
-		"en"		"**Many** (%d)"
-		"chi"		"**许多** (%d)"
 	}
 }
