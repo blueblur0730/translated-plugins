@@ -231,10 +231,10 @@ bool StartMatchVote(int iClient, const char[] sCfgName)
 		return false;
 	}
 
-	/*if (LGO_IsMatchModeLoaded()) {
+	if (LGO_IsMatchModeLoaded()) {
 		CPrintToChat(iClient, "%t", "AlreadyLoaded");		//{blue}[{default}Match{blue}] {default}模式已经加载，请先使用!rmatch卸载配置
 		return false;
-	}*/
+	}
 
 	if (!IsBuiltinVoteInProgress()) {
 		int iNumPlayers = 0;
@@ -293,39 +293,13 @@ public void MatchVoteResultHandler(Handle vote, int num_votes, int num_clients, 
 				Format(buffer, sizeof(buffer), "%t", "Loaded");
 				DisplayBuiltinVotePass(vote, buffer);
 				//PrintToConsoleAll("%s", g_sCfg);
-				for(int j = 0; j < strlen(g_sCfg); j++){
-					g_sCfg[j] = CharToLower(g_sCfg[j]);
-				}
-				//PrintToConsoleAll("%s", g_sCfg);
-				if(LGO_IsMatchModeLoaded())
-				{
-					ServerCommand("sm_resetmatch");
-					CreateTimer(4.0, Timer_ForceMatch);
-					//ServerCommand("sm_forcematch %s", g_sCfg);
-				}
-				else
-				{
-					ServerCommand("sm_forcematch %s", g_sCfg);
-					return;
-				}
+				ServerCommand("sm_forcematch %s", g_sCfg);
+				return;
 			}
 		}
 	}
 
 	DisplayBuiltinVoteFail(vote, BuiltinVoteFail_Loses);
-}
-
-public Action Timer_ForceMatch(Handle timer)
-{
-	char sCfg[64], sName[64];
-	GetCmdArg(1, sCfg, sizeof(sCfg));
-	if (FindConfigName(sCfg, sName, sizeof(sName))) 
-	{
-		strcopy(g_sCfg, sizeof(g_sCfg), sCfg);
-	}
-
-	ServerCommand("sm_forcematch %s", g_sCfg);
-	return Plugin_Handled;
 }
 
 public Action MatchReset(int iClient, int iArgs)
