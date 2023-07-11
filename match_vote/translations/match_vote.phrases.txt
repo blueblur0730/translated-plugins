@@ -12,11 +12,11 @@
 		"chi"		"{blue}[{default}Match{blue}] {default}旁观者不允许投票选择模式."
 	}
 
-//	"AlreadyLoaded"		//请依据个人喜好取消注释这一行与源文件 Uncomment this and source file by your preference
-//	{
-//		"en"		"{blue}[{default}Match{blue}] {default}Matchmode already loaded! Use !rmatch first to unload config!"
-//		"chi"		"{blue}[{default}Match{blue}] {default}模式已经加载! 请先使用!rmatch卸载配置!"
-//	}
+	"AlreadyLoaded"
+	{
+		"en"		"{blue}[{default}Match{blue}] {default}Matchmode already loaded! Use !rmatch first to unload config!"
+		"chi"		"{blue}[{default}Match{blue}] {default}模式已经加载! 请先使用!rmatch卸载配置!"
+	}
 
 	"PlayersNumRequire"
 	{
