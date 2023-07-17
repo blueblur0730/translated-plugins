@@ -44,7 +44,7 @@ new iLostTempHealth[2];
 new iTempHealth[MAXPLAYERS + 1];
 new iSiDamage[2];
 
-new String:sSurvivorState[2][32];
+new String:sSurvivorState[2][64];
 
 new bool:bLateLoad;
 new bool:bRoundOver;
@@ -400,7 +400,7 @@ public Action:L4D2_OnEndVersusModeRound(bool:countSurvivors)
 	{
 		SetConVarInt(hCvarValveSurvivalBonus, RoundToFloor(fSurvivorBonus[team] / iSurvivalMultiplier));
 		fSurvivorBonus[team] = float(GetConVarInt(hCvarValveSurvivalBonus) * iSurvivalMultiplier);    // workaround for the discrepancy caused by RoundToFloor()
-		Format(sSurvivorState[team], 32, "%s%i{default}/{olive}%i{default}", (iSurvivalMultiplier == iTeamSize ? "{olive}" : "{orange}"), iSurvivalMultiplier, iTeamSize);
+		Format(sSurvivorState[team], 64, "%s%i{default}/{olive}%i{default}", (iSurvivalMultiplier == iTeamSize ? "{olive}" : "{orange}"), iSurvivalMultiplier, iTeamSize);
 	#if SM2_DEBUG
 		PrintToChatAll("\x01Survival bonus cvar updated. Value: \x05%i\x01 [multiplier: \x05%i\x01]", GetConVarInt(hCvarValveSurvivalBonus), iSurvivalMultiplier);
 	#endif
@@ -409,10 +409,10 @@ public Action:L4D2_OnEndVersusModeRound(bool:countSurvivors)
 	{
 		fSurvivorBonus[team] = 0.0;
 		SetConVarInt(hCvarValveSurvivalBonus, 0);
-		char WipedOut[32], Depleted[32];
+		char WipedOut[64], Depleted[64];
 		Format(WipedOut, sizeof(WipedOut), "%t", "WipedOut");
 		Format(Depleted, sizeof(Depleted), "%t", "Depleted");
-		Format(sSurvivorState[team], 32, "{orange}%s{default}", (iSurvivalMultiplier == 0 ? WipedOut : Depleted));		//\x04%s\x01		//wiped out : bonus depleted
+		Format(sSurvivorState[team], 64, "{orange}%s{default}", (iSurvivalMultiplier == 0 ? WipedOut : Depleted));		//\x04%s\x01		//wiped out : bonus depleted
 		bTiebreakerEligibility[team] = (iSurvivalMultiplier == iTeamSize);
 	}
 
