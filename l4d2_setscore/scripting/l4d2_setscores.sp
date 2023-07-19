@@ -211,10 +211,10 @@ void SetScores(const int survScore, const int infectScore, const int iAdminIndex
 	if (iAdminIndex != -1) { //This works well for an index '0' as well, if the initiator is CONSOLE
 		char client_name[32];
 		GetClientName(iAdminIndex, client_name, sizeof(client_name));
-		PrintToChatAll("%t", "WhoSetScore", survScore, infectScore, client_name);
+		CPrintToChatAll("%t", "WhoSetScore", survScore, infectScore, client_name);
 		// \x01Scores set to \x05%d \x01 (\x04Sur\x01) - \x05%d \x01 (\x04Inf\x01) by \x03%s\x01.
 	} else {
-		PrintToChatAll("%t", "VoteSetScore", survScore, infectScore);
+		CPrintToChatAll("%t", "VoteSetScore", survScore, infectScore);
 		// \x01Scores set to \x05%d \x01 (\x04Sur\x01) - \x05%d \x01 (\x04Inf\x01) by vote.
 	}
 }

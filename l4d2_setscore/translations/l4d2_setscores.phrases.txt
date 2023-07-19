@@ -32,8 +32,9 @@
 
 	"WhoSetScore"
 	{
-		"en"		"{default}Scores set to {olive}%d {default} ({teamcolor}Sur{default}) - {olive}%d {default} ({teamcolor}Inf{default}) by {orange}%s{default}."
-		"chi"		"{default}分数已由 {orange}%s{default} 设置为 {olive}%d {default} ({teamcolor}生还{default}) - {olive}%d {default} ({teamcolor}特感{default})."
+		"#format"   "{1:d},{2:d},{3:s}"
+		"en"		"{default}Scores set to {olive}{1} {default} ({teamcolor}Sur{default}) - {olive}{2} {default} ({teamcolor}Inf{default}) by {orange}{3}{default}."
+		"chi"		"{default}分数已由 {orange}{3}{default} 设置为 {olive}{1} {default} ({teamcolor}生还{default}) - {olive}{2} {default} ({teamcolor}特感{default})."
 	}
 
 	"VoteSetScore"
