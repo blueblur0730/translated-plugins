@@ -122,7 +122,7 @@ public void OnPluginStart()
 	HookEvent("player_hurt", PlayerHurt);
 	HookEvent("player_death", TankDeath);
 
-	LoadTranslations("l4d2_slowdown_cotrol.phrases");
+	LoadTranslations("l4d2_slowdown_control.phrases");
 }
 
 public void OnConfigsExecuted()
