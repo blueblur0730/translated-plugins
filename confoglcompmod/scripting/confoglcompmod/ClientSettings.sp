@@ -199,7 +199,7 @@ public void _EnforceCliSettings_QueryReply(QueryCookie cookie, int client, ConVa
 
 				/*PrintToChatAll("\x01[\x05Confogl\x01] Kicking \x04%L\x01 for having an illegal value for '\x04%s\x01' (\x04%f\x01) !!!", \
 									client, cvarName, fCvarVal);*/
-				CPrintToChatAll("%t", "KickIllegalValueClient" \
+				CPrintToChatAll("%t", "KickIllegalValueClient" ,\
 									client, cvarName, fCvarVal);		//{blue}[{default}Confogl{blue}] {olive}%L{default} was kicked for having an illegal value for '{green}%s{default}' {blue}({default}%f{blue})
 
 				char kickMessage[256] = "Illegal Client Value for ";
