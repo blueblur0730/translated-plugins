@@ -2,12 +2,14 @@
 {
 	"HealthRemaining"
 	{
-		"chi"		"{default}[{green}!{default}] {blue}Tank {default}({olive}%s{default})还剩余{green} %d {default}点血量."
+		"#format"	"{1:d}"
+		"chi"		"{default}[{green}!{default}] {blue}Tank {default}({olive}%s{default})还剩余{green} {1} {default}点血量."
 	}
 
 	"DamageDealtToTank"
 	{
-		"chi"		"{default}[{green}!{default}] 对{blue} Tank {default}({olive}%s{default})造成的{blue}伤害"
+		"#format"	"{1:s}"
+		"chi"		"{default}[{green}!{default}] 对{blue} Tank {default}({olive}{1}{default})造成的{blue}伤害"
 	}
 
 	"DamageDealtToAITank"
@@ -15,8 +17,9 @@
 		"chi"		"{default}[{green}!{default}] 对{blue} Tank {default}({olive}AI{default})造成的{blue}伤害"
 	}
 
-	"DamageDetail"		//this only affects format
+	"DamageDetail"
 	{
-		"chi"		"{blue}[{default}%d{blue}] ({default}%i%%{blue}) {olive}%N"
+		"#format"	"{1:d},{2:i},{3:N}"
+		"chi"		"{blue}[{default}{1}{blue}] ({default}{2}%%{blue}) {olive}{3}"
 	}
 }

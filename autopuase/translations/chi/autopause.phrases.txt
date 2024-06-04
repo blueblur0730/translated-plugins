@@ -1,0 +1,12 @@
+"Phrases"
+{
+	"Tag"
+	{
+		"chi"		"{blue}[{default}自动暂停{blue}]{default}"
+	}
+	"crashed"
+	{
+		"#format"	"{1:s}"
+		"chi"		"{olive}{1}{default} 客户端崩溃."
+	}
+}

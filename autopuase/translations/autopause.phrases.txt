@@ -6,8 +6,8 @@
 	}
 	"crashed"
 	{
-		"en"		"{olive}%s{default} crashed."
-		"es"		"{olive}%s{default} no responde."
-		"chi"		"{olive}%s{default} 客户端崩溃."
+		"#format"	"{1:s}"
+		"en"		"{olive}{1}{default} crashed."
+		"es"		"{olive}{1}{default} no responde."
 	}
 }

@@ -2,14 +2,12 @@
 {
 	"RHalfBonusFull"
 	{
-		"#format"	"{1:s},{2:d},{3:d},{4:.1f},{5:s}"
-		"en"		"{1}{default}R{orange}#1{default} Bonus: {olive}{2}{default}/{olive}{3}{default} <{lightgreen}{4}%%{default}> [{5}]"
-		"chi"		"{1}{default}R{orange}#1{default} 奖励分: {olive}{2}{default}/{olive}{3}{default} <{lightgreen}{4}%%{default}> [{5}]"
+		"en"		"%s{default}R{orange}#1{default} Bonus: {olive}%d{default}/{olive}%d{default} <{lightgreen}%.1f%%{default}> [%s]"
+		"chi"		"%s{default}R{orange}#1{default} 奖励分: {olive}%d{default}/{olive}%d{default} <{lightgreen}%.1f%%{default}> [%s]"
 	}
 
 	"RBonusFull"
 	{
-		"#format"	""
 		"en"		"%s{default}R{orange}#%i{default} Bonus: {olive}%d{default} <{lightgreen}%.1f%%{default}> [HB: {olive}%d{default} <{lightgreen}%.1f%%{default}> | DB: {olive}%d{default} <{lightgreen}%.1f%%{default}> | Pills: {olive}%d{default} <{lightgreen}%.1f%%{default}>]"
 		"chi"		"%s{default}R{orange}#%i{default} 奖励分: {olive}%d{default} <{lightgreen}%.1f%%{default}> [HB: {olive}%d{default} <{lightgreen}%.1f%%{default}> | DB: {olive}%d{default} <{lightgreen}%.1f%%{default}> | 药分: {olive}%d{default} <{lightgreen}%.1f%%{default}>]"
 	}

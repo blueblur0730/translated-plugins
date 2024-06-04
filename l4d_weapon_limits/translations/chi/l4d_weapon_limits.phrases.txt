@@ -1,0 +1,13 @@
+"Phrases"
+{
+	"LimitsCleared"
+	{
+		"chi"		"{blue}[{default}武器限制{blue}]{default} 武器限制已清除!"
+	}
+
+	"ReachedLimits"
+	{
+		"#format"	"{1:d}"
+		"chi"		"{blue}[{default}武器限制{blue}]{default} 这一组武器的拥有数已达到了它的最大限制数量 {green}{1} {default}把."
+	}
+}

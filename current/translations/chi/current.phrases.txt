@@ -3,6 +3,6 @@
 	"Current"
 	{
 		"#format"	"{1:d}"
-		"en"		"{default}Current: {orange}{1}%%"
+		"chi"		"{default}当前进度: {orange}{1}%%"
 	}
 }

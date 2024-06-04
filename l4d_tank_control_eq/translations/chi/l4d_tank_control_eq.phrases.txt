@@ -1,0 +1,35 @@
+"Phrases"
+{
+	"RageRefilledHintText"
+	{
+		"chi"		"第二控制权开始"
+	}
+
+	"RageRefilledText"
+	{
+		"chi"		"{red}<{default}Tank控制权{red}> {olive}第二控制权{red}开始."
+	}
+
+	"RageRefilledTextOthers"
+	{
+		"#format"	"{1:N}"
+		"chi"		"{red}<{default}Tank控制权{red}> {default}({green}{1}{default}) 的{olive}第二控制权{red}开始."
+	}
+
+	"TankSelection"
+	{
+		"#format"	"{1:s}"
+		"chi"		"{red}<{default}Tank轮换{red}> {olive}{1} {default}将会成为{red}Tank!"
+	}
+
+	"YouAreTheTank"
+	{
+		"chi"		"{red}<{default}Tank轮换{red}> {green}你 {default}将会成为{red}Tank{default}!"
+	}
+
+	"UnableToGive"
+	{
+		"#format"	"{1:s}"
+		"chi"		"{olive}[SM] {default}{1} 不在感染者团队. 不能给予Tank."
+	}
+}

@@ -158,7 +158,7 @@ public playerDisconnect(Handle:event, const String:name[], bool:dontBroadcast) {
             {
                 FakeClientCommand(client, "sm_pause");
             }
-            CPrintToChatAll("%t %t", "Tag", "AutoPause", playerName);        //{blue}[{default}AutoPause{blue}] {olive}%s {default}crashed.
+            CPrintToChatAll("%t %t", "Tag", "AutoPause", playerName);
         }
     }
 

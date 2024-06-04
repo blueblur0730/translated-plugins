@@ -2,12 +2,14 @@
 {
 	"HealthRemaining"
 	{
-		"en"		"{default}[{green}!{default}] {blue}Tank {default}({olive}%s{default}) had {green}%d {default}health remaining."
+		"#format"	"{1:d}"
+		"en"		"{default}[{green}!{default}] {blue}Tank {default}({olive}%s{default}) had {green}{1} {default}health remaining."
 	}
 
 	"DamageDealtToTank"
 	{
-		"en"		"{default}[{green}!{default}] {blue}Damage {default}dealt to{blue} Tank {default}({olive}%s{default})"
+		"#format"	"{1:s}"
+		"en"		"{default}[{green}!{default}] {blue}Damage {default}dealt to{blue} Tank {default}({olive}{1}{default})"
 	}
 
 	"DamageDealtToAITank"
@@ -15,8 +17,9 @@
 		"en"		"{default}[{green}!{default}] {blue}Damage {default}dealt to{blue} Tank {default}({olive}AI{default})"
 	}
 
-	"DamageDetail"		//this only affects format
+	"DamageDetail"
 	{
-		"en"		"{blue}[{default}%d{blue}] ({default}%i%%{blue}) {olive}%N"
+		"#format"	"{1:d},{2:i},{3:N}"
+		"en"		"{blue}[{default}{1}{blue}] ({default}{2}%%{blue}) {olive}{3}"
 	}
 }

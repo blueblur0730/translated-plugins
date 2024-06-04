@@ -279,7 +279,7 @@ public void SM_RoundEnd_Event(Event hEvent, const char[] sEventName, bool bDontB
 		SM_iFirstScore = (SM_iFirstScore) ? (SM_hSurvivalBonus.IntValue * iAliveCount) : 0;
 
 		//PrintToChatAll("\x01[\x05Confogl\x01] Round 1 Bonus: \x04%d", SM_iFirstScore);
-		CPrintToChatAll("%t", "RoundOneBonus", SM_iFirstScore);		//{blue}[{default}Confogl{blue}]{default} Round 1 Bonus: {olive}%d
+		CPrintToChatAll("%t", "RoundOneBonus", SM_iFirstScore);
 
 		if (SM_hCustomMaxDistance.BoolValue && GetCustomMapMaxScore() > -1) {
 			//PrintToChatAll("\x01[\x05Confogl\x01] Custom Max Distance: \x04%d", GetCustomMapMaxScore());
@@ -297,11 +297,11 @@ public void SM_RoundEnd_Event(Event hEvent, const char[] sEventName, bool bDontB
 		//PrintToChatAll("\x01[\x05Confogl\x01] Round 1 Bonus: \x04%d", SM_iFirstScore);
 		//PrintToChatAll("\x01[\x05Confogl\x01] Round 2 Bonus: \x04%d", iScore);
 		CPrintToChatAll("%t", "RoundOneBonus", SM_iFirstScore);
-		CPrintToChatAll("%t", "RoundTowBonus", iScore);
+		CPrintToChatAll("%t", "RoundTwoBonus", iScore);
 
 		if (SM_hCustomMaxDistance.BoolValue && GetCustomMapMaxScore() > -1) {
 			//PrintToChatAll("\x01[\x05Confogl\x01] Custom Max Distance: \x04%d", GetCustomMapMaxScore());
-			CPrintToChatAll("%t", "CustomMaxDistance", GetCustomMapMaxScore());		//{blue}[{default}Confogl{blue}]{default} Custom Max Distance: {olive}%d
+			CPrintToChatAll("%t", "CustomMaxDistance", GetCustomMapMaxScore());
 		}
 	}
 }
@@ -341,7 +341,7 @@ public Action SM_Cmd_Health(int client, int args)
 
 	if (client) {
 		//PrintToChat(client, "\x01[\x05Confogl\x01] Average Health: \x04%.02f", fAvgHealth);
-		CPrintToChat(client, "%t", "AverageHealth", fAvgHealth); 	//{blue}[{default}Confogl{blue}]{default} Average Health: {olive}%.02f
+		CPrintToChat(client, "%t", "AverageHealth", fAvgHealth);
 	} else {
 		PrintToServer("[Confogl] Average Health: %.02f", fAvgHealth);
 	}
@@ -354,11 +354,11 @@ public Action SM_Cmd_Health(int client, int args)
 
 	if (client) {
 		//PrintToChat(client, "\x01[\x05Confogl\x01] Health Bonus: \x04%d", iScore);
-		CPrintToChat(client, "%t", "HealthBonus", iScore);		//{blue}[{default}Confogl{blue}]{default} Health Bonus: {olive}%d
+		CPrintToChat(client, "%t", "HealthBonus", iScore);
 
 		if (SM_fSurvivalBonusRatio != 0.0) {
 			//PrintToChat(client, "\x01[\x05Confogl\x01] Static Survival Bonus Per Survivor: \x04%d", RoundToFloor(400 * SM_fMapMulti * SM_fSurvivalBonusRatio));
-			CPrintToChat(client, "%t", "SurvivalBonus", RoundToFloor(400 * SM_fMapMulti * SM_fSurvivalBonusRatio));		//{blue}[{default}Confogl{blue}]{default} Static Survival Bonus Per Survivor: {olive}%d
+			CPrintToChat(client, "%t", "SurvivalBonus", RoundToFloor(400 * SM_fMapMulti * SM_fSurvivalBonusRatio));
 		}
 
 		if (SM_hCustomMaxDistance.BoolValue && GetCustomMapMaxScore() > -1) {

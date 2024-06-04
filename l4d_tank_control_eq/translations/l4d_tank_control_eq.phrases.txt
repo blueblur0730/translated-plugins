@@ -3,36 +3,33 @@
 	"RageRefilledHintText"
 	{
 		"en"		"Rage Meter Refilled"
-		"chi"		"第二控制权开始"
 	}
 
-	"BotRageRefilledText"
+	"RageRefilledText"
 	{
 		"en"		"{red}<{default}Tank Rage{red}> {olive}Rage Meter {red}Refilled."
-		"chi"		"{red}<{default}Tank控制权{red}> {olive}第二控制权{red}开始."
 	}
 
-	"HumanRageRefilledText"
+	"RageRefilledTextOthers"
 	{
-		"en"		"{red}<{default}Tank Rage{red}> {default}({green}%N{default}'s) {olive}Rage Meter {red}Refilled."
-		"chi"		"{red}<{default}Tank控制权{red}> {default}({green}%N{default}) 的{olive}第二控制权{red}开始."
+		"#format"	"{1:N}"
+		"en"		"{red}<{default}Tank Rage{red}> {default}({green}{1}{default}'s) {olive}Rage Meter {red}Refilled."
 	}
 
 	"TankSelection"
 	{
-		"en"		"{red}<{default}Tank Selection{red}> {olive}%s {default}will become the {red}Tank!"
-		"chi"		"{red}<{default}Tank轮换{red}> {olive}%s {default}将会成为{red}Tank!"
+		"#format"	"{1:s}"
+		"en"		"{red}<{default}Tank Selection{red}> {olive}{1} {default}will become the {red}Tank!"
 	}
 
 	"YouAreTheTank"
 	{
 		"en"		"{red}<{default}Tank Selection{red}> {green}You {default}will become the {red}Tank{default}!"
-		"chi"		"{red}<{default}Tank轮换{red}> {green}你 {default}将会成为{red}Tank{default}!"
 	}
 
 	"UnableToGive"
 	{
-		"en"		"{olive}[SM] {default}%s not on infected. Unable to give tank"
-		"chi"		"{olive}[SM] {default}%s 不在感染者团队. 不能给予Tank."
+		"#format"	"{1:s}"
+		"en"		"{olive}[SM] {default}{1} not on infected. Unable to give tank"
 	}
 }
